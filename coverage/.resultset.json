@@ -138,7 +138,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null
@@ -190,6 +190,26 @@
       "C:/Users/judy hartung/67-373/67-272_review/ChoreTracker_starter_S13/app/models/chore.rb": [
         1,
         1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
         null,
         null
       ],
@@ -342,6 +362,6 @@
         null
       ]
     },
-    "timestamp": 1390947407
+    "timestamp": 1390971069
   }
 }
