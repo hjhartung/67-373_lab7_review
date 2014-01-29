@@ -2,7 +2,7 @@ class ChoresController < ApplicationController
   before_filter :login_required, :except => :index 
 
   def index
-    @chores = Chore.all
+    @chores = Chore.chronological.by_task.all
   end
 
   def show
@@ -20,7 +20,7 @@ class ChoresController < ApplicationController
   def create
     @chore = Chore.new(params[:chore])
     if @chore.save
-      redirect_to @chore, notice: 'Chore was successfully created.' 
+      redirect_to @chore #, notice: 'Chore was successfully created.' 
     else
       render action: "new" 
     end

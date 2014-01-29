@@ -2,7 +2,7 @@ class ChildrenController < ApplicationController
   before_filter :login_required
   
   def index
-    @children = Child.all
+    @children = Child.alphabetical
   end
 
   def show
